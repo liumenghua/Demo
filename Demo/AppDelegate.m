@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DMLagMonitor.h"
 
 @interface AppDelegate ()
 
@@ -15,7 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[DMLagMonitor sharedInstance] startLagMonitor];
+    
     return YES;
 }
 

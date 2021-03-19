@@ -11,6 +11,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DMLagMonitor : NSObject
 
++ (instancetype)sharedInstance;
+
+- (void)startLagMonitor;
+- (void)stopLagMonitor;
+
 @end
 
 NS_ASSUME_NONNULL_END
