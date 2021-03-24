@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB799273260B78E600AD8488 /* MonitorTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB799271260B78E600AD8488 /* MonitorTestViewController.m */; };
+		AB79927A260B78EC00AD8488 /* TerminateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB799277260B78EC00AD8488 /* TerminateViewController.m */; };
+		AB79927B260B78EC00AD8488 /* UserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB799278260B78EC00AD8488 /* UserDataManager.m */; };
 		AB7D3DB126047B980033F6D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7D3DB026047B980033F6D0 /* AppDelegate.m */; };
 		AB7D3DB426047B980033F6D0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7D3DB326047B980033F6D0 /* SceneDelegate.m */; };
 		AB7D3DB726047B980033F6D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7D3DB626047B980033F6D0 /* ViewController.m */; };
@@ -14,11 +17,16 @@
 		AB7D3DBC26047B9B0033F6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7D3DBB26047B9B0033F6D0 /* Assets.xcassets */; };
 		AB7D3DBF26047B9B0033F6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7D3DBD26047B9B0033F6D0 /* LaunchScreen.storyboard */; };
 		AB7D3DC226047B9B0033F6D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7D3DC126047B9B0033F6D0 /* main.m */; };
-		AB7D3DCC26047C650033F6D0 /* MonitorTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7D3DCB26047C650033F6D0 /* MonitorTestViewController.m */; };
 		AB7D3DD126047EB70033F6D0 /* DMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7D3DD026047EB70033F6D0 /* DMLagMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB799271260B78E600AD8488 /* MonitorTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorTestViewController.m; sourceTree = "<group>"; };
+		AB799272260B78E600AD8488 /* MonitorTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorTestViewController.h; sourceTree = "<group>"; };
+		AB799276260B78EC00AD8488 /* UserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataManager.h; sourceTree = "<group>"; };
+		AB799277260B78EC00AD8488 /* TerminateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerminateViewController.m; sourceTree = "<group>"; };
+		AB799278260B78EC00AD8488 /* UserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataManager.m; sourceTree = "<group>"; };
+		AB799279260B78EC00AD8488 /* TerminateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminateViewController.h; sourceTree = "<group>"; };
 		AB7D3DAC26047B980033F6D0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7D3DAF26047B980033F6D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB7D3DB026047B980033F6D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,8 +39,6 @@
 		AB7D3DBE26047B9B0033F6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB7D3DC026047B9B0033F6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB7D3DC126047B9B0033F6D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB7D3DCA26047C650033F6D0 /* MonitorTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonitorTestViewController.h; sourceTree = "<group>"; };
-		AB7D3DCB26047C650033F6D0 /* MonitorTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonitorTestViewController.m; sourceTree = "<group>"; };
 		AB7D3DCF26047EB70033F6D0 /* DMLagMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLagMonitor.h; sourceTree = "<group>"; };
 		AB7D3DD026047EB70033F6D0 /* DMLagMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLagMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +54,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB799270260B78E600AD8488 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				AB799271260B78E600AD8488 /* MonitorTestViewController.m */,
+				AB799272260B78E600AD8488 /* MonitorTestViewController.h */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		AB799275260B78EC00AD8488 /* TerminateSaveData */ = {
+			isa = PBXGroup;
+			children = (
+				AB799276260B78EC00AD8488 /* UserDataManager.h */,
+				AB799277260B78EC00AD8488 /* TerminateViewController.m */,
+				AB799278260B78EC00AD8488 /* UserDataManager.m */,
+				AB799279260B78EC00AD8488 /* TerminateViewController.h */,
+			);
+			path = TerminateSaveData;
+			sourceTree = "<group>";
+		};
 		AB7D3DA326047B980033F6D0 = {
 			isa = PBXGroup;
 			children = (
@@ -68,14 +94,14 @@
 			isa = PBXGroup;
 			children = (
 				AB7D3DCE26047EAB0033F6D0 /* LagMonitor */,
+				AB799270260B78E600AD8488 /* Monitor */,
+				AB799275260B78EC00AD8488 /* TerminateSaveData */,
 				AB7D3DAF26047B980033F6D0 /* AppDelegate.h */,
 				AB7D3DB026047B980033F6D0 /* AppDelegate.m */,
 				AB7D3DB226047B980033F6D0 /* SceneDelegate.h */,
 				AB7D3DB326047B980033F6D0 /* SceneDelegate.m */,
 				AB7D3DB526047B980033F6D0 /* ViewController.h */,
 				AB7D3DB626047B980033F6D0 /* ViewController.m */,
-				AB7D3DCA26047C650033F6D0 /* MonitorTestViewController.h */,
-				AB7D3DCB26047C650033F6D0 /* MonitorTestViewController.m */,
 				AB7D3DB826047B980033F6D0 /* Main.storyboard */,
 				AB7D3DBB26047B9B0033F6D0 /* Assets.xcassets */,
 				AB7D3DBD26047B9B0033F6D0 /* LaunchScreen.storyboard */,
@@ -163,12 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB79927B260B78EC00AD8488 /* UserDataManager.m in Sources */,
 				AB7D3DB726047B980033F6D0 /* ViewController.m in Sources */,
-				AB7D3DCC26047C650033F6D0 /* MonitorTestViewController.m in Sources */,
 				AB7D3DD126047EB70033F6D0 /* DMLagMonitor.m in Sources */,
 				AB7D3DB126047B980033F6D0 /* AppDelegate.m in Sources */,
+				AB799273260B78E600AD8488 /* MonitorTestViewController.m in Sources */,
 				AB7D3DC226047B9B0033F6D0 /* main.m in Sources */,
 				AB7D3DB426047B980033F6D0 /* SceneDelegate.m in Sources */,
+				AB79927A260B78EC00AD8488 /* TerminateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CDK8BEJAZ;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,6 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CDK8BEJAZ;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
