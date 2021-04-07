@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB734BFD261C5608009322B0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AB734BFC261C5608009322B0 /* Person.m */; };
+		AB734C01261C5621009322B0 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = AB734C00261C5621009322B0 /* Account.m */; };
+		AB734C05261C5C03009322B0 /* KVOTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB734C04261C5C03009322B0 /* KVOTestViewController.m */; };
+		AB734C09261D62B3009322B0 /* Account+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = AB734C08261D62B3009322B0 /* Account+Custom.m */; };
+		AB734C0E261D8687009322B0 /* CapsuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB734C0D261D8687009322B0 /* CapsuleViewController.swift */; };
 		AB799273260B78E600AD8488 /* MonitorTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB799271260B78E600AD8488 /* MonitorTestViewController.m */; };
 		AB79927A260B78EC00AD8488 /* TerminateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB799277260B78EC00AD8488 /* TerminateViewController.m */; };
 		AB79927B260B78EC00AD8488 /* UserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB799278260B78EC00AD8488 /* UserDataManager.m */; };
@@ -21,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB734BFB261C5608009322B0 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AB734BFC261C5608009322B0 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AB734BFF261C5621009322B0 /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		AB734C00261C5621009322B0 /* Account.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		AB734C03261C5C03009322B0 /* KVOTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOTestViewController.h; sourceTree = "<group>"; };
+		AB734C04261C5C03009322B0 /* KVOTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTestViewController.m; sourceTree = "<group>"; };
+		AB734C07261D62B3009322B0 /* Account+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Account+Custom.h"; sourceTree = "<group>"; };
+		AB734C08261D62B3009322B0 /* Account+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Account+Custom.m"; sourceTree = "<group>"; };
+		AB734C0C261D8676009322B0 /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB734C0D261D8687009322B0 /* CapsuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleViewController.swift; sourceTree = "<group>"; };
 		AB799271260B78E600AD8488 /* MonitorTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorTestViewController.m; sourceTree = "<group>"; };
 		AB799272260B78E600AD8488 /* MonitorTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorTestViewController.h; sourceTree = "<group>"; };
 		AB799276260B78EC00AD8488 /* UserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataManager.h; sourceTree = "<group>"; };
@@ -54,6 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB734BF9261C55EC009322B0 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				AB734BFB261C5608009322B0 /* Person.h */,
+				AB734BFC261C5608009322B0 /* Person.m */,
+				AB734BFF261C5621009322B0 /* Account.h */,
+				AB734C00261C5621009322B0 /* Account.m */,
+				AB734C07261D62B3009322B0 /* Account+Custom.h */,
+				AB734C08261D62B3009322B0 /* Account+Custom.m */,
+				AB734C03261C5C03009322B0 /* KVOTestViewController.h */,
+				AB734C04261C5C03009322B0 /* KVOTestViewController.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		AB734C0B261D8623009322B0 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AB734C0D261D8687009322B0 /* CapsuleViewController.swift */,
+				AB734C0C261D8676009322B0 /* Demo-Bridging-Header.h */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		AB799270260B78E600AD8488 /* Monitor */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +135,8 @@
 				AB7D3DCE26047EAB0033F6D0 /* LagMonitor */,
 				AB799270260B78E600AD8488 /* Monitor */,
 				AB799275260B78EC00AD8488 /* TerminateSaveData */,
+				AB734BF9261C55EC009322B0 /* KVO */,
+				AB734C0B261D8623009322B0 /* CollectionView */,
 				AB7D3DAF26047B980033F6D0 /* AppDelegate.h */,
 				AB7D3DB026047B980033F6D0 /* AppDelegate.m */,
 				AB7D3DB226047B980033F6D0 /* SceneDelegate.h */,
@@ -150,6 +191,7 @@
 				TargetAttributes = {
 					AB7D3DAB26047B980033F6D0 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -192,9 +234,14 @@
 				AB79927B260B78EC00AD8488 /* UserDataManager.m in Sources */,
 				AB7D3DB726047B980033F6D0 /* ViewController.m in Sources */,
 				AB7D3DD126047EB70033F6D0 /* DMLagMonitor.m in Sources */,
+				AB734C01261C5621009322B0 /* Account.m in Sources */,
 				AB7D3DB126047B980033F6D0 /* AppDelegate.m in Sources */,
+				AB734C0E261D8687009322B0 /* CapsuleViewController.swift in Sources */,
+				AB734C05261C5C03009322B0 /* KVOTestViewController.m in Sources */,
+				AB734C09261D62B3009322B0 /* Account+Custom.m in Sources */,
 				AB799273260B78E600AD8488 /* MonitorTestViewController.m in Sources */,
 				AB7D3DC226047B9B0033F6D0 /* main.m in Sources */,
+				AB734BFD261C5608009322B0 /* Person.m in Sources */,
 				AB7D3DB426047B980033F6D0 /* SceneDelegate.m in Sources */,
 				AB79927A260B78EC00AD8488 /* TerminateViewController.m in Sources */,
 			);
@@ -339,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CDK8BEJAZ;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -349,6 +397,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.funguy.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo/CollectionView/Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -358,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CDK8BEJAZ;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -368,6 +420,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.funguy.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo/CollectionView/Demo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
