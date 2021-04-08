@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Account (Custom)
 
+@property (nonatomic, copy) NSString *accountName;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -23,11 +23,13 @@
     
     self.person = [[Person alloc] init];
     self.person.account1.balance = 5.0;
+    self.person.account1.accountName = @"account1";
     self.person.account2.balance = 5.0;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.person.account1 setBalance:10.0];
+    [self.person.account1 setAccountName:@"new_account1"];
     [self.person.account2 setBalance:10.0];
 }
 
